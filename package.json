@@ -1,0 +1,32 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "nothing,this is my test node project",
+  "main": ".eslintrc.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a5006/anydoor.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "silan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a5006/anydoor/issues"
+  },
+  "homepage": "https://github.com/a5006/anydoor#readme"
+}
